@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Plotly Chart</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div style="width: 80%; margin: auto;">
+        <!-- Container for the Plotly chart -->
+        <div id="plotlyChart"></div>
+    </div>
+
+    <script>
+        // Sample data for Plotly chart
+        var trace = {
+            x: ['January', 'February', 'March', 'April', 'May'],
+            y: [10, 25, 15, 30, 20],
+            type: 'scatter',
+            mode: 'lines+markers',
+            name: 'Monthly Sales'
+        };
+
+        var layout = {
+            title: 'Interactive Plotly Chart',
+            xaxis: { title: 'Month' },
+            yaxis: { title: 'Sales' }
+        };
+
+        // Create a Plotly chart directly in the HTML file
+        Plotly.newPlot('plotlyChart', [trace], layout);
+    </script>
+</body>
+</html>
