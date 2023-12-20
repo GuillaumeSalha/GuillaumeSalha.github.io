@@ -2,7 +2,7 @@
 title: "Portrait"
 bg: orange
 color: black
-fa-icon: toggle-on
+fa-icon: user
 ---
 
 # What does the typical human look like?
