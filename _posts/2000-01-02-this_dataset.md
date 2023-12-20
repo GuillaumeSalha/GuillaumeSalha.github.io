@@ -24,5 +24,4 @@ Before delving into a human, one student alien decided to explore the dataset an
 
 Based on its knowledge on network data, he will sparse the movie countries from the movie corpus to an adjacency matrix. This latter has been used to create a graph where the countries are the nodes and the link between them are the edges. Each link between two countries is weighted by the number of movies that they share. Then, he will able to draw a graph but before he is asking himself of to model the attraction of two countries between them. He is thinking to make a parallel with the gravity force that attracts two objects but he would like to 
 
-
-<!-- <img src="img/html/network_countries.html" alt="network_countries.html" style="width: 100%;"/> -->
+<img src="img/html/network_countries.html" alt="network_countries.html" style="width: 100%;"/>
