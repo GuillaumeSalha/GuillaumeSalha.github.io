@@ -24,6 +24,6 @@ Before delving into a human, one student alien decided to explore the dataset an
 
 Based on its knowledge on network data, he will sparse the movie countries from the movie corpus to an adjacency matrix. This latter has been used to create a graph where the countries are the nodes and the link between them are the edges. Each link between two countries is weighted by the number of movies that they share. Then, he will able to draw a graph but before he is asking himself of to model the attraction of two countries between them. He is thinking to make a parallel with the gravity force that attracts two objects but he would like to assess this force.
 
-His first idea is to create the degree for each node and hence see which nodes are important 
+His first idea is to create the degree for each node and hence see which nodes are important. In a second time, he decided to evaluate the attraction by the Katz centrality which is a generalized way of computing the degree of a node. However, he is deceived about the result because the Katz centrality is not able to capture the attraction 
 
 <iframe src="img/html/network_countries.html" width="800" height="800" frameborder="0" style="border:0;"></iframe>
