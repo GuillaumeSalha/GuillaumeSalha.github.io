@@ -26,6 +26,8 @@ Based on its knowledge on network data, he will sparse the movie countries from 
 
 His first idea is to create the degree for each node and hence see which nodes are important. In a second time, he decided to evaluate the attraction by the Katz centrality which is a generalized way of computing the degree of a node. In a similar way with the PageRank centrality, both last centralities are based on graph that are directed. However, the graph that he has created is undirected. He has no other choice but to use the Eigenvector centrality which is a way to compute the importance of a node in a graph.
 
-A high eigenvector score indicates that a node is linked to numerous other nodes, each possessing elevated scores themselves. By looking at the center, he is admitting that the core is composed of 16 countries and drew a circle to define the core of the Earth planet.
+A high eigenvector score indicates that a node is linked to numerous other nodes, each possessing elevated scores themselves.
 
 <iframe src="img/html/network_countries.html" width="900" height="900" frameborder="0" style="border:0;"></iframe>
+
+ By analyzing the graph and looking at the center, he is admitting that the core is composed of 16 countries and drew a circle to define the core of the Earth planet. He is wondering why some countries appear several times with a small changes in their name. He is thinking that it is due to the fact that the country name may has evolved through time and this is the same country over the years but with his dataset, he has no other choice but to consider them as different countries. 
