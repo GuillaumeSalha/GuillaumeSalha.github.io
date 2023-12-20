@@ -17,3 +17,12 @@ In the dire year of **2023**, as the impending collapse of our Earth civilizatio
 ## The Dataset
 
 The CMU Movie Summary Corpus comprises 42,306 movies and an accompanying dataset featuring information about characters. The initial dataset, centered on movie details, encapsulates the narratives of 81,741 films spanning the cinematic landscape from 1888 to 2012. Complementing this, the second dataset delves into the intricacies of 450,669 characters. In their inaugural endeavor, the extraterrestrial scholars are poised to navigate through the character dataset, aiming to distill insights that will pave the way for crafting a humanoid robotic portrayal based on their preliminary analyses of these character details.
+
+## The Map
+
+Before delving into a human, one student alien decided to explore the dataset and to recreate a map of the Earth. By using the knowledge of his alien cousin from a star wars galaxy, he is thinking that the Movie countries present in the movie corpus are some places where human lives on their planet. He will model the earth has one full planet without water and the countries are some point position on it where it concentrates a human activity and by looking at the link between the country that shares movies among them, he will conclude that they have a link.
+
+Based on its knowledge on network data, he will sparse the movie countries from the movie corpus to an adjacency matrix. This latter has been used to create a graph where the countries are the nodes and the link between them are the edges. Each link between two countries is weighted by the number of movies that they share. Then, he will able to draw a graph but before he is asking himself of to model the attraction of two countries between them. He is thinking to make a parallel with the gravity force that attracts two objects but he would like to 
+
+
+<!-- <img src="img/html/network_countries.html" alt="network_countries.html" style="width: 100%;"/> -->
