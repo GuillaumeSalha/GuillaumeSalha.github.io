@@ -6,14 +6,14 @@ fa-icon: user
 ---
 
 # What does the typical human look like?
+HELLO THERE! I'm R2D4, an inhabitant from the planet Xuluberlu. With my team, we are studying an archaic and extremely old civilization called "humanity". 
 
+Do you know what a typical human looks like? Bear with me, we are going to look what our dataset has to tell us. 
 
 ## Basic physical descritions
 
 ### Gender
-HELLO THERE! I'm R2D4, an inhabitant from the planet Xuluberlu. With my team, we are studying an archaic and extremely old civilization called "humanity". 
 
-Do you know what a typical human looks like? 
 Let's take a look at these two simple graphs.
 
 <!-- include the first plot -->
@@ -33,12 +33,17 @@ Let's take a look at these two simple graphs.
 
 </div>
 
-Humanity clearly has two genders, but the repartition is quite unfair between both. Ratio between both is moving with time, but we should be able to say there is around 2 times more males than females on this civilization. Maybe a biais from their genetic conception?
+Humanity clearly has two genders, but the repartition is quite unfair between both. Ratio between both is moving with time, but we should be able to say there is around 2 times more males than females on this civilization. Maybe a biais from their genetic conception or from the functionning of their society ? 
 
 
 ### Age
-(tetstsststst
 
+I wonder how long humans lived, do you think they had discovered a machine to extend their life expectancy ? Let's have a look at the actors' age repartition. 
+
+<iframe src="img/html/hugo_age_repartition_global_HF.html" width="900" height="600" frameborder="0" style="border: 0px"></iframe>
+
+75% of humans who are playing in movies are yonguer than 47 years old and we observe that are almost no actors older than 80 years. Apparently humans did not discovered immortality. As well as dying young, these humans had a long period of education. Only 25% of actors are under 28. 
+If we now look at the breakdown by gender, we see a clear difference. There's a median age difference of 8 years, is this meaning that women have a shorter life expectancy ? 
 
 ### Heigth
 Come closer, reader! This is a representation of their heights. They are not really tall as you can see (to give you an idea, one meter corresponds to a quarter of our medium size).
@@ -48,19 +53,19 @@ Come closer, reader! This is a representation of their heights. They are not rea
 Again, there is a noticable difference between man and women here. (perform a t-test to show it??????)
 
 
-
-
 ### Ethnicity
-(Hugo let's go)
+I think we have now an idea of their physical caracteristics, let's look at the last feature we havn't exploited : 'Ethnicity'. This might gives us some information on where they came from and complete our physical description. 
+
+XXX different ethnicities, that's a lot, we cannot say they were all looking the same. The biggest category seems to be 'Indians' but I can see that there are a lot of smaller categories which have similar names, (Irish Americans, White Americans and Italian Americans), I wonder who are those Americans. Maybe I should continue my analysis by trying to group the small similar categories. 
+
+I wonder how you can fit such a diverity in a so tiny planet they called 'Earth'.
 
 
 
 -------------------------
 
 ## What did they like?
-(Hugo let's go)
-
-
+Let's move on from their external description, I want now to understand what they like, which movie genres they prefer. to do that I need to have a way of quantifying how much they liked a movie over another. The column with the revenues for the movie box office seems perfectly suited for this. My unique worry is that this could be linked to other parameters which I'm not interested in. Indeed, I have just done a small linear regression on the movie box office revenue and the movie box office revenues seems to increse by a factor 1e6 $ for each year that passes. I definitly need to correct for this effect if I want to have a reliable measure of a movie sucess. Let's assume that the repartition of sucessful and disastrous movies is somewhat similar through times. Based on that we can independanlty normalize the movie box office for each movie release year. This brings the average to zero and is not very sensible to outliers. I introduced the feature called : 'Movie box revenue scaled' and I will asses the sucess of a movie based the value of this measure. 
 
 
 -------------------------
