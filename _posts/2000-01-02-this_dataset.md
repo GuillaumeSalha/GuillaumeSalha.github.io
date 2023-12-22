@@ -28,7 +28,7 @@ His first idea is to create the degree for each node and hence see which nodes a
 
 A high eigenvector score indicates that a node is linked to numerous other nodes, each possessing elevated scores themselves.
 
-<iframe src="img/html/network_countries.html" width="900" height="900" frameborder="0" style="border: 10px solid white; box-sizing: border-box;"></iframe>
+<iframe src="img/html/network_countries.html" width="900" height="900" frameborder="0" style="border: 0px solid white; box-sizing: border-box;"></iframe>
 
 
 By analyzing the graph and looking at the center, he is admitting that the core is composed of 16 countries and drew a circle to define the core of the Earth planet. He is wondering why some countries appear several times with a small changes in their name. He is thinking that it is due to the fact that the country name may has evolved through time and this is the same country over the years but with his dataset, he has no other choice but to consider them as different countries. 
