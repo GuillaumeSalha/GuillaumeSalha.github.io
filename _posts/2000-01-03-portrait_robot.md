@@ -73,7 +73,7 @@ Let's start by looking at the movie genre distribution in the 1000 most successf
 
 <iframe src="img/html/hugo_genre_top_1000.html" width="900" height="600" frameborder="0" style="border: 0px"></iframe>  
 
-The three main genres seem to be: 
+The three main genres seem to be: Drama, Comedy and Action. 
 
 However, are we sure that those specific genres are able to induce success, or are we just seeing the most common movie genres? To be sure, I will show you a linear regression I made. To start with, I calculated the linear regression of the movie box office revenue variable against the movie genre. I chose the genre 'Drama' as a reference because it's the most widely spread genre in the dataset and I looked at the influence of replacing the genre Drama by another one. Let's take an example to be clear: a coefficient of 0.5 associated with the genre 'Computer Animation' means that having the genre 'Computer Animation' versus having the genre 'Drama' brings you a success of 0.5 points higher. I show here only a subset of the genre we assessed. 
 
@@ -96,7 +96,7 @@ For Computer Animation movies and Drama we can see that the result holds, Comput
 
 ### Military ranks
 
-Some characters' names give us precious information about human occupations, especially using their denomination. Let's focus on the character names which begin by a military rank (around three per cent of them! (2.7%)).
+Some character names give us precious information about human occupations, especially using their denomination. Let's focus on the character names which begin by a military rank (around three percent of them! (2.7%)).
 
 *Note to the human reader: three per cent of military personnel is a lot, comparatively to [World Bank data on December 2023](https://tradingeconomics.com/world/armed-forces-personnel-total-wb-data.html), for which less than 0.5% of the total world population (around 30 million people) are military personnel.*
 
@@ -106,11 +106,11 @@ We get the following graph.
 
 Since we know the most graded personnel is also the scariest one, I guess the previous graph gives us a good approximation of the hierarchy of ranks in the army: a "Captain" is, therefore, less graded than a "Private".
 
-*Note to the human reader: poor R2D4! He couldn't know he was suffering a terrible cofactor here: the interest of a given military rank for movie scenarists. Indeed, it is more likely to see a Captain than a Private on the silver screen, not because there is less Privates than Captains, but because a Captain has so much responsibilities than a Private, and therefore is more interesting for scenarist.*
+*Note to the human reader: poor R2D4! He couldn't know that he is victim to a terrible cofactor here: the interest of a given military rank for movies scenarists. Indeed, it is more likely to see a Captain than a Private on the silver screen, not because there are fewer Privates than Captains, but because a Captain has so many more responsabilities than a Private, and therefore is more interesting for scenarists.*
 
 
 ### Doctor positions
-I was reading our data, when I noticed a singular fact. Lots of characters are called 'Dr.'. 
+I was reading our data, when I noticed a singular fact: lots of characters are called 'Dr.'. 
 
 <iframe src="img/html/jean_gender_proportions_doctors.html" width="900" height="600" frameborder="0" style="border: 0px"></iframe>
 
