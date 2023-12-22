@@ -8,7 +8,7 @@ fa-icon: user
 # What does the typical human look like?
 
 
-## Basic despritions
+## Basic physical descritions
 
 ### Gender
 HI THERE! I'm Nono, an inhabitant from the planet Xuluberlu. With my team, we are studying an archaic and extremely old civilization called "humanity". 
@@ -49,10 +49,15 @@ Humanity clearly has two genders, but the repartition is quite unfair between bo
 
 
 
+-------------------------
 
 ## What did they like?
 (Hugo let's go)
 
+
+
+
+-------------------------
 
 ## How do they work?
 (Jean let's go)
