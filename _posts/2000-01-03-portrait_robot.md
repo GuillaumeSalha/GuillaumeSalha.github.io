@@ -42,20 +42,22 @@ I wonder how long humans lived. Do you think they had discovered a machine to ex
 
 <iframe src="img/html/hugo_age_repartition_global_HF.html" width="900" height="600" frameborder="0" style="border: 0px"></iframe>
 
-75% of humans who played in movies are younger than 47 years old; and we observe that there are almost no actors older than 80. Apparently humans had not discovered immortality. As well as dying young, these humans had a long education period. Only 25% of actors are under 28. 
+75% of humans who played in movies are younger than 47 years old, and we observe that there are almost no actors older than 80. Apparently, humans had not discovered immortality. As well as dying young, these humans had a long education period. Only 25% of actors are under 28. 
 If we now look at the breakdown by gender, we see a clear difference. There's a median age difference of 8 years; does this mean that women have a shorter life expectancy? 
+
+*Note to the human reader: In reality, the difference in life expectancy between men and women is very significant, it's 5 years in the US but it's all the way around, women have a longer life expectancy than men. .*
 
 ### Heigth
 Come closer, reader! This is a representation of their heights. As you can see, they are not really tall (to give you an idea, one meter corresponds to a quarter of our medium size).
 
 <iframe src="img/html/jean_actors_height.html" width="900" height="600" frameborder="0" style="border: 0px"></iframe>
 
-Again, there is a noticable difference between men and women here. 
+Again, there is a noticeable difference between men and women here. 
 
 
 ### Ethnicity
-Now that we have an idea of their physical characteristics, let's look at the last feature we haven't exploited : 'Ethnicity'. This might give us some information on where they came from and complete our physical description. 
-
+Now that we have an idea of their physical characteristics, let's look at the last feature we haven't exploited: 'Ethnicity'. This might give us some information on where they came from and complete our physical description. 
+<iframe src="img/html/hugo_ethnicity_repartition" width="900" height="600" frameborder="0" style="border: 0px"></iframe>
 XXX different ethnicities, that's a lot! We cannot say that they all looked the same. The biggest category seems to be 'Indians', but I can see that there are a lot of smaller categories which have similar names, (Irish Americans, White Americans and Italian Americans). I wonder who those Americans are. Maybe I should continue my analysis by trying to group the small similar categories. 
 
 I wonder how you can fit such diversity in so tiny a planet: 'Earth'.
@@ -68,6 +70,8 @@ I wonder how you can fit such diversity in so tiny a planet: 'Earth'.
 Let's move on from their external description. I now want to understand what they like, ie which movie genres they prefer. To do so, I need to have a way of quantifying how much they liked one movie over another. The column with the revenues for the movie box office seems perfectly suited for this. My unique worry is that this could be linked to other parameters which I'm not interested in. Indeed, I have just done a small linear regression on the movie box office revenue; these revenues seem to increase by a sum of $1 million for each year that passes. I definitely need to correct this effect if I want to have a reliable measure of movie success. Let's assume that the distribution of successful and disastrous movies is somewhat similar through time. Based on that, we can independently normalize the movie box office for each movie release year. This brings the average to zero and is not very sensible to outliers. I introduced the feature called: 'Movie box revenue scaled', and I will assess the success of a movie based the value of this measure. 
 
 Let's start by looking at the movie genre distribution in the 1000 most successful movies. 
+
+<iframe src="img/html/hugo_genre_top_1000.html" width="900" height="600" frameborder="0" style="border: 0px"></iframe>  
 
 The three main genres seem to be: 
 
