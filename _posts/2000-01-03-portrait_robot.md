@@ -96,7 +96,7 @@ For Computer Animation movies and Drama we can see that the result holds, Comput
 
 ### Military ranks
 
-Some characters' names give us precious information about human occupations, especially using their denomination. Let's focus on the character names which begin by a military rank (around three per cent of them! (2.7%)).
+Some character names give us precious information about human occupations, especially using their denomination. Let's focus on the character names which begin by a military rank (around three percent of them! (2.7%)).
 
 *Note to the human reader: three per cent of military personnel is a lot, comparatively to [World Bank data on December 2023](https://tradingeconomics.com/world/armed-forces-personnel-total-wb-data.html), for which less than 0.5% of the total world population (around 30 million people) are military personnel.*
 
@@ -106,11 +106,11 @@ We get the following graph.
 
 Since we know the most graded personnel is also the scariest one, I guess the previous graph gives us a good approximation of the hierarchy of ranks in the army: a "Captain" is, therefore, less graded than a "Private".
 
-*Note to the human reader: poor R2D4! He couldn't know he was suffering a terrible cofactor here: the interest of a given military rank for movie scenarists. Indeed, it is more likely to see a Captain than a Private on the silver screen, not because there is less Privates than Captains, but because a Captain has so much responsibilities than a Private, and therefore is more interesting for scenarist.*
+*Note to the human reader: poor R2D4! He couldn't know that he is victim to a terrible cofactor here: the interest of a given military rank for movies scenarists. Indeed, it is more likely to see a Captain than a Private on the silver screen, not because there are fewer Privates than Captains, but because a Captain has so many more responsabilities than a Private, and therefore is more interesting for scenarists.*
 
 
 ### Doctor positions
-I was reading our data, when I noticed a singular fact. Lots of characters are called 'Dr.'. 
+I was reading our data, when I noticed a singular fact: lots of characters are called 'Dr.'. 
 
 <iframe src="img/html/jean_gender_proportions_doctors.html" width="900" height="600" frameborder="0" style="border: 0px"></iframe>
 
