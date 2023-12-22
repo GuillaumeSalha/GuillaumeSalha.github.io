@@ -57,7 +57,7 @@ Again, there is a noticeable difference between men and women here.
 
 ### Ethnicity
 Now that we have an idea of their physical characteristics, let's look at the last feature we haven't exploited: 'Ethnicity'. This might give us some information on where they came from and complete our physical description. 
-<iframe src="img/html/hugo_ethnicity_repartition" width="900" height="900" frameborder="0" style="border: 0px"></iframe>
+<iframe src="img/html/hugo_ethnicity_repartition" width="950" height="900" frameborder="0" style="border: 0px"></iframe>
 XXX different ethnicities, that's a lot! We cannot say that they all looked the same. The biggest category seems to be 'Indians', but I can see that there are a lot of smaller categories which have similar names, (Irish Americans, White Americans and Italian Americans). I wonder who those Americans are. Maybe I should continue my analysis by trying to group the small similar categories. 
 
 I wonder how you can fit such diversity in so tiny a planet: 'Earth'.
