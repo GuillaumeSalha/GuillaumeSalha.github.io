@@ -117,7 +117,7 @@ I was reading our data, when I noticed a singular fact: lots of characters are c
 Whoooah, such a miss! A t-test (p-value < 1e-59) discredites the null-hypothesis "There are as many female doctors as female actors in general". 
 
 
-*Note to the human reader: the bias in female representation in movies is a [well-known gender effect](http://eijh.modares.ac.ir/article-27-30885-en.html)...*
+*Note to the human reader: the bias in female representation in movies is a [well-known gender effect](http://eijh.modares.ac.ir/article-27-30885-en.html).*
 
 
 -------------------------
