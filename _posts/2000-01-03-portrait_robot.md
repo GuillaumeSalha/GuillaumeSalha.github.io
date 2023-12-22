@@ -66,7 +66,8 @@ Again, there is a noticable difference between man and women here. (perform a t-
 -------------------------
 
 ## How do they work?
-(Jean let's go)
+
+### Military ranks
 
 Some charactors names are given us precious informaiton about human occupations, especially using their denomination. Let's focus on the charactor names which begins by a military rank (around three percent of them! (2.7%)).
 
@@ -79,3 +80,7 @@ We get the following graph.
 Since we know the most graded personnel is also the most rare one, I guess the previous graph gives us a good approximation of the herarchy of ranks in the army: a "Captain" is, therefore, less graded than a "Private".
 
 *Note to the human reader: poor R2D4! He couldn't know he is suffering a terrible cofactor here: the interst of a given military rank for movies scenarists. Indeed, it is more likely to see a Captain than a Private on the silver screen, not because there is less Privates than Captains, but because a Captain has so much responsabilities than a Private, and therefore is more interesting for scenarist.*
+
+
+### Doctor positions
+I was reading our data, when I noticed a singular fact. Lots of characters are called 'Dr.'.
