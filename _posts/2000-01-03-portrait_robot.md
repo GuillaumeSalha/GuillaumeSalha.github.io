@@ -40,7 +40,7 @@ Humanity clearly has two genders, but the distribution is quite unbalanced. The 
 
 I wonder how long humans lived. Do you think they had discovered a machine to extend their life expectancy? Let's have a look at the actors' age distribution. 
 
-<iframe src="img/html/hugo_age_repartition_global_HF.html" width="900" height="1200" frameborder="0" style="border: 0px"></iframe>
+<iframe src="img/html/hugo_age_repartition_global_HF.html" width="900" height="1000" frameborder="0" style="border: 0px"></iframe>
 
 75% of humans who played in movies are younger than 47 years old, and we observe that there are almost no actors older than 80. Apparently, humans had not discovered immortality. As well as dying young, these humans had a long education period. Only 25% of actors are under 28. 
 If we now look at the breakdown by gender, we see a clear difference. There's a median age difference of 8 years; does this mean that women have a shorter life expectancy? 
@@ -50,7 +50,7 @@ If we now look at the breakdown by gender, we see a clear difference. There's a 
 ### Heigth
 Come closer, reader! This is a representation of their heights. As you can see, they are not really tall (to give you an idea, one meter corresponds to a quarter of our medium size).
 
-<iframe src="img/html/jean_actors_height.html" width="900" height="1200" frameborder="0" style="border: 0px"></iframe>
+<iframe src="img/html/jean_actors_height.html" width="900" height="600" frameborder="0" style="border: 0px"></iframe>
 
 Again, there is a noticeable difference between men and women here. 
 
