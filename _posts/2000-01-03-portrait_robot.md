@@ -71,7 +71,7 @@ Let's start by looking at the movie genre distribution in the 1000 most successf
 
 The three main genres seem to be: 
 
-However, are we sure that those specific genres are able to induce success, or are we just seeing the most common movie genres? To be sure, I will show you a linear regression I made. To start with, I calculated the linear regression of the movie box office revenue variable against the movie genre. I chose the genre 'Drama' as a reference because it's the most widely spread genre in the dataset and I looked at the influence of of replacing the genre Drama by another one. Let's take an example to be clear: a coefficient of 0.5 associated with the genre 'Computer Animation' means that having the genre 'Computer Animation' versus having the genre 'Drama' brings you a success of 0.5 points higher. I show here only a subset of the genre we assessed. 
+However, are we sure that those specific genres are able to induce success, or are we just seeing the most common movie genres? To be sure, I will show you a linear regression I made. To start with, I calculated the linear regression of the movie box office revenue variable against the movie genre. I chose the genre 'Drama' as a reference because it's the most widely spread genre in the dataset and I looked at the influence of replacing the genre Drama by another one. Let's take an example to be clear: a coefficient of 0.5 associated with the genre 'Computer Animation' means that having the genre 'Computer Animation' versus having the genre 'Drama' brings you a success of 0.5 points higher. I show here only a subset of the genre we assessed. 
 
 <iframe src="img/html/hugo_Influence_movie_genre.html" width="900" height="600" frameborder="0" style="border: 0px"></iframe>
 
@@ -80,8 +80,10 @@ On the contrary, the genres: Gay, Experimental and Gay interest seem to be very 
 
 This is only the result of the comparison against the reference 'Drama', to be complete I need to compare them with other references. After having tried all the different genres as reference I can tell you that those results are very robust. When I tried sequentially to use all the genres as references I see that it's always the same three that outperform almost all the other genres and the same three that underperform. This means that the results are very robust and we maybe have found this the key to grasp human preferences. 
 
-However, to be fully complete, I need to ensure that I'm really looking at the influence of the movie genre on the success of the movie and not the influence of other confounders. To avoid the influence of the confounders it's convenient to do some pair matching 
+However, to be fully complete, I need to ensure that I'm really looking at the influence of the movie genre on the success of the movie and not the influence of other confounders. To avoid the influence of the confounders it's convenient to do some pair matching, the matching algorithm used outputs a dataset balanced between the two genres we are investing in which movies share similar languages and countries of origin. By doing so, we correct for the influence of those two parameters. 
+<iframe src="img/html/hugo_Influence_movie_genre.html" width="900" height="600" frameborder="0" style="border: 0px"></iframe>
 
+For Computer Animation movies and Drama we can see that the result holds, Computer Animation is significantly better (with a p-value inferior to 0.005) than Drama. However, it's not the case for all of them. If I can also ensure that Glamorized Spy Film is better than Drama I cannot say anything about the others, indeed, for them, the p-value associated with the linear regression coefficient in the pair matching is higher than 0.005. 
 
 
 -------------------------
