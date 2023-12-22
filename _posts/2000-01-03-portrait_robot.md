@@ -1,7 +1,7 @@
 ---
 title: "Portrait"
 bg: bg2
-color: black
+color: white
 fa-icon: user
 ---
 
