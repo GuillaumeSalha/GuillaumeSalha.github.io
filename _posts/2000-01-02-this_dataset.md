@@ -7,7 +7,7 @@ fa-icon: check-square-o
 
 # Contextualization
 
-8000 years later and far away from our decaying home, the alien discoverers puzzled over the enigmatic treasure trove they had stumbled upon. Their advanced intellects delved into the intricacies of our stories, attempting to decipher the nuances of a civilization long gone. Through the lens of our cinematic legacy, **these alien archaeologists sought to unravel the mysteries of what is a human**. An alien student class decide to present their findings to their teacher about what they have learned from the CMU Movie Summary Corpus.
+Ten thousand years later and far away from our decaying home, the alien discoverers puzzled over the enigmatic treasure trove they had stumbled upon. Their advanced intellects delved into the intricacies of our stories, attempting to decipher the nuances of a civilization long gone. Through the lens of our cinematic legacy, **these alien archaeologists sought to unravel the mysteries of what is a human**. An alien student class decide to present their findings to their teacher about what they have learned from the CMU Movie Summary Corpus.
 
 ## The Dataset
 
