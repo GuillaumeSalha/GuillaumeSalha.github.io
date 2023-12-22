@@ -7,6 +7,10 @@ fa-icon: user
 
 # What does the typical human look like?
 
+
+## Basic physical descritions
+
+### Gender
 HI THERE! I'm Nono, an inhabitant from the planet Xuluberlu. With my team, we are studying an archaic and extremely old civilization called "humanity". 
 
 Do you know what a typical human looks like? 
@@ -29,4 +33,31 @@ Let's take a look at these two simple graphs.
 
 </div>
 
-Humanity clearly has two genders, but the repartition is quite unfair between both. 
+Humanity clearly has two genders, but the repartition is quite unfair between both. Ratio between both is moving with time, but we should be able to say there is around 2 times more males than females on this civilization. Maybe a biais from their genetic conception?
+
+
+### Age
+(Hugo let's go)
+
+
+### Heigth
+
+
+
+### Ethnicity
+(Hugo let's go)
+
+
+
+-------------------------
+
+## What did they like?
+(Hugo let's go)
+
+
+
+
+-------------------------
+
+## How do they work?
+(Jean let's go)
