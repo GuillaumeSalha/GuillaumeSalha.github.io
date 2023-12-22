@@ -85,7 +85,7 @@ Since we know the most graded personnel is also the most rare one, I guess the p
 ### Doctor positions
 I was reading our data, when I noticed a singular fact. Lots of characters are called 'Dr.'. 
 
-<iframe src="img/html/jean_rank_distribution.html" width="900" height="600" frameborder="0" style="border: 0px"></iframe>
+<iframe src="img/html/jean_gender_proportions_doctors.html" width="900" height="600" frameborder="0" style="border: 0px"></iframe>
 
 Whoooah, such a miss! A t-test (p-value < 1e-59) discredites the null-hypothesis "There are as many female doctors as female actors in general". 
 
