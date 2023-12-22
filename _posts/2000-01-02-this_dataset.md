@@ -1,6 +1,6 @@
 ---
 title: "Dataset"
-bg: blue_1
+bg: bg1
 color: white
 fa-icon: check-square-o
 ---
