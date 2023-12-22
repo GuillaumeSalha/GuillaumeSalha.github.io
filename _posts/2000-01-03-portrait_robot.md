@@ -67,6 +67,19 @@ I wonder how you can fit such a diverity in a so tiny planet they called 'Earth'
 ## What did they like?
 Let's move on from their external description, I want now to understand what they like, which movie genres they prefer. to do that I need to have a way of quantifying how much they liked a movie over another. The column with the revenues for the movie box office seems perfectly suited for this. My unique worry is that this could be linked to other parameters which I'm not interested in. Indeed, I have just done a small linear regression on the movie box office revenue and the movie box office revenues seems to increse by a factor 1e6 $ for each year that passes. I definitly need to correct for this effect if I want to have a reliable measure of a movie sucess. Let's assume that the repartition of sucessful and disastrous movies is somewhat similar through times. Based on that we can independanlty normalize the movie box office for each movie release year. This brings the average to zero and is not very sensible to outliers. I introduced the feature called : 'Movie box revenue scaled' and I will asses the sucess of a movie based the value of this measure. 
 
+Let's start by looking at the movie genre repartition in the 1000 most sucessful movies. 
+
+The three main genres seems to be : 'Drama', '' and ''
+
+However, are we sure that those specific genres are able to induce sucess or are we just seeing the most common movie genres ? To find out sure I will show you some linear regression I made. To start with I choosed the genre 'Drama' and I show you the linear regression coefficient associated to some other genres. To be clear, a coeficient of 0.5 associated with the genre 'Computer Animation' for example, means that having the genre Computer animation versus having the genre Drama brings you a succues 0.5 points higher. 
+
+
+Looking at this, three genres stands out to be outperforming 'Drama' and they are : 
+On the contrary the genres : semm to be very detrimental to a movie sucees. 
+
+This is only the result of the comparison against the reference 'Drama', to be complete I need to compare them with other refernces. After having tried all the different genres as reference I can tell you that those results are very robust. When I tried sequentially to use all the genres as references I see that it's always the same three that outperform almost all the other genres and the same three that underperform.
+
+
 
 -------------------------
 
