@@ -120,6 +120,8 @@ Whoooah, such a miss! A t-test (p-value < 1e-59) discredites the null-hypothesis
 *Note to the human reader: the biais in women representation in movie is a [well-known gender effect](http://eijh.modares.ac.ir/article-27-30885-en.html)...*
 
 ## Conclusion 
+Well, this journey into the CMU movie dataset was very insightful, I hope that you have now a clearer idead of how looked like a modern human back in the years 2000 when this species still existed. 
+
 
 ![robot](..//img//png//robot.png "robot")
 
