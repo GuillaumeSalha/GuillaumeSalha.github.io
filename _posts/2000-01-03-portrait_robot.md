@@ -73,7 +73,7 @@ Let's start by looking at the movie genre distribution in the 1000 most successf
 
 <iframe src="img/html/hugo_genre_top_1000.html" width="900" height="600" frameborder="0" style="border: 0px"></iframe>  
 
-The three main genres seem to be: 
+The three main genres seem to be: Drama, Comedy and Action. 
 
 However, are we sure that those specific genres are able to induce success, or are we just seeing the most common movie genres? To be sure, I will show you a linear regression I made. To start with, I calculated the linear regression of the movie box office revenue variable against the movie genre. I chose the genre 'Drama' as a reference because it's the most widely spread genre in the dataset and I looked at the influence of replacing the genre Drama by another one. Let's take an example to be clear: a coefficient of 0.5 associated with the genre 'Computer Animation' means that having the genre 'Computer Animation' versus having the genre 'Drama' brings you a success of 0.5 points higher. I show here only a subset of the genre we assessed. 
 
@@ -119,10 +119,15 @@ Whoooah, such a miss! A t-test (p-value < 1e-59) discredites the null-hypothesis
 
 *Note to the human reader: the bias in women's representation in movies is a [well-known gender effect](http://eijh.modares.ac.ir/article-27-30885-en.html)...*
 
-## Conclusion 
-Well, this journey into the CMU movie dataset was very insightful, I hope that you have now a clearer idea of how looked like a modern human back in the year 2000 when this species still existed. It seemed to be a small, quiet species from one of the farthest reaches of the Milky Way. This species was made up of two rather poorly distributed genders. Humans had a rather moderate size and had a life expectancy of around 80 years old. Their main language was undeniably English, although their ethnic origins were extremely diverse. Concerning their tastes they seemed to be very sensible to Glamorized Spy Film and Computer Animation. When I'll have time I will have a look at the content of plot summaries in order to better identify what drives human curiosity in those two genres. Here I sketched the ID card of the average human from the CMU movie dataset. 
 
-![robot](..//img//png//robot.png "robot")
+-------------------------
+
+## Conclusion 
+Well, this journey into the CMU movie dataset was very insightful. I hope that you now have a clearer idea of what a modern human looked like back in the year 2000 when this species still existed. It seemed to be a small, quiet species from one of the farthest reaches of the Milky Way. This species was made up of two rather poorly distributed genders. Humans had a rather moderate size and had a life expectancy of around 80 years old. Their main language was undeniably English, although their ethnic origins were extremely diverse. Concerning their tastes, they seemed to be very sensitive to Glamorized Spy Film and Computer Animation. When I have time, I will take a closer look at the content of plot summaries to better identify what drives human curiosity in those two genres. Here, I sketched the ID card of the average human from the CMU movie dataset.
+
+<div align="center">
+  <img src="..//img//png//robot.png" alt="robot" title="robot">
+</div>
 
 
 
