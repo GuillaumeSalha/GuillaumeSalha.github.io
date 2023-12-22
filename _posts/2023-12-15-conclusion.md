@@ -2,7 +2,7 @@
 title: "Conclusion"
 bg: bg6
 color: white
-fa-icon: compact-disc
+fa-icon: disk
 ---
 
 # Conclusion
