@@ -77,7 +77,7 @@ The three main genres seem to be: Drama, Comedy and Action.
 
 However, are we sure that those specific genres are able to induce success, or are we just seeing the most common movie genres? To be sure, I will show you a linear regression I made. To start with, I calculated the linear regression of the movie box office revenue variable against the movie genre. I chose the genre 'Drama' as a reference because it's the most widely spread genre in the dataset and I looked at the influence of replacing the genre Drama by another one. Let's take an example to be clear: a coefficient of 0.5 associated with the genre 'Computer Animation' means that having the genre 'Computer Animation' versus having the genre 'Drama' brings you a success of 0.5 points higher. I show here only a subset of the genre we assessed. 
 
-<iframe src="img/html/hugo_Influence_movie_genre.html" width="900" height="600" frameborder="0" style="border: 0px"></iframe>
+<iframe src="img/html/hugo_Influence_movie_genre.html" width="900" height="800" frameborder="0" style="border: 0px"></iframe>
 
 Looking at this, three genres stand to outperform 'Drama': Glamorized Spy Films, Computer Animation and Roadshow theatrical releases. 
 On the contrary, the genres: Gay, Experimental and Gay interest seem to be very detrimental to a movie's success. 
