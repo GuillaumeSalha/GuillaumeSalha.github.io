@@ -1,7 +1,7 @@
 ---
 title: "Portrait"
-bg: orange
-color: black
+bg: blue_2
+color: white
 fa-icon: user
 ---
 
