@@ -11,7 +11,7 @@ fa-icon: user
 ## Basic physical descritions
 
 ### Gender
-HELLO THERE! I'm R2D4, an inhabitant from the planet Xuluberlu. With my team, we are studying an archaic and extremely old civilization called "humanity". 
+HELLO THERE! I'm R2D4, an inhabitant of the planet Xuluberlu. With my classmates, we are studying an archaic and extremely old civilization called "Humanity". 
 
 Do you know what a typical human looks like? 
 Let's take a look at these two simple graphs.
@@ -33,7 +33,7 @@ Let's take a look at these two simple graphs.
 
 </div>
 
-Humanity clearly has two genders, but the repartition is quite unfair between both. Ratio between both is moving with time, but we should be able to say there is around 2 times more males than females on this civilization. Maybe a biais from their genetic conception?
+Humanity clearly has two genders, but the distribution is quite unbalanced. The ratio evolves with time, but we should be able to say that there are around two times more males than females in this civilization. Maybe this is a genetic biais?
 
 
 ### Age
