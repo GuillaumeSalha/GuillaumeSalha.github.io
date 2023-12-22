@@ -1,6 +1,6 @@
 ---
 title: "Conclusion"
-bg: green
+bg: bg6
 color: white
 fa-icon: satellite
 ---

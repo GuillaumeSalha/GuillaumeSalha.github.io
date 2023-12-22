@@ -37,11 +37,17 @@ colors:
   yellow_3: "#FFD07B"
   yellow_4: "#FEC457"
   yellow_5: "#FDB833"
-  blue_1: "#6AADF1
+  blue_1: "#6AADF1"
   blue_2: "#FDB833"
   blue_3: "#1789FC"
   blue_4: "#0D68C5"
   blue_5: "#02478D"
+  bg1: "#A2CCF6"
+  bg2: "#FFEBC2"
+  bg3: "#0A7AEB"
+  bg4: "#FED27B"
+  bg5: "#02478D"
+  bg6: "#FDB833"
 
 kramdown:
   auto_ids:  false
