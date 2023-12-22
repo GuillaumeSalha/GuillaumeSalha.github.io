@@ -119,10 +119,15 @@ Whoooah, such a miss! A t-test (p-value < 1e-59) discredites the null-hypothesis
 
 *Note to the human reader: the bias in women's representation in movies is a [well-known gender effect](http://eijh.modares.ac.ir/article-27-30885-en.html)...*
 
-## Conclusion 
-Well, this journey into the CMU movie dataset was very insightful, I hope that you have now a clearer idea of how looked like a modern human back in the year 2000 when this species still existed. It seemed to be a small, quiet species from one of the farthest reaches of the Milky Way. This species was made up of two rather poorly distributed genders. Humans had a rather moderate size and had a life expectancy of around 80 years old. Their main language was undeniably English, although their ethnic origins were extremely diverse. Concerning their tastes they seemed to be very sensible to Glamorized Spy Film and Computer Animation. When I'll have time I will have a look at the content of plot summaries in order to better identify what drives human curiosity in those two genres. Here I sketched the ID card of the average human from the CMU movie dataset. 
 
-![robot](..//img//png//robot.png "robot")
+-------------------------
+
+## Conclusion 
+Well, this journey into the CMU movie dataset was very insightful. I hope that you now have a clearer idea of what a modern human looked like back in the year 2000 when this species still existed. It seemed to be a small, quiet species from one of the farthest reaches of the Milky Way. This species was made up of two rather poorly distributed genders. Humans had a rather moderate size and had a life expectancy of around 80 years old. Their main language was undeniably English, although their ethnic origins were extremely diverse. Concerning their tastes, they seemed to be very sensitive to Glamorized Spy Film and Computer Animation. When I have time, I will take a closer look at the content of plot summaries to better identify what drives human curiosity in those two genres. Here, I sketched the ID card of the average human from the CMU movie dataset.
+
+<div align="center">
+  <img src="..//img//png//robot.png" alt="robot" title="robot">
+</div>
 
 
 
