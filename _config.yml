@@ -42,12 +42,13 @@ colors:
   blue_3: "#1789FC"
   blue_4: "#0D68C5"
   blue_5: "#02478D"
-  bg1: "#A2CCF6"
-  bg2: "#FFEBC2"
+  bg0: "#E7E6DD"
+  bg1: "#3361AC"
+  bg2: "#E8AF30"
   bg3: "#0A7AEB"
-  bg4: "#FED27B"
+  bg4: "#162F65"
   bg5: "#02478D"
-  bg6: "#FDB833"
+  bg6: "#0F2043"
 
 kramdown:
   auto_ids:  false
