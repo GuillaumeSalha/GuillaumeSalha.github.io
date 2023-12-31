@@ -58,7 +58,7 @@ Again, there is a noticeable difference between men and women here.
 ### Ethnicity
 Now that we have an idea of their physical characteristics, let's look at the last feature we haven't exploited: 'Ethnicity'. This might give us some information on where they came from and complete our physical description. 
 <iframe src="img/html/hugo_ethnicity_repartition" width="950" height="900" frameborder="0" style="border: 0px"></iframe>
-XXX different ethnicities, that's a lot! We cannot say that they all looked the same. The biggest category seems to be 'Indians', but I can see that there are a lot of smaller categories which have similar names, (Irish Americans, White Americans and Italian Americans). I wonder who those Americans are. Maybe I should continue my analysis by trying to group the small similar categories. 
+431 different ethnicities, that's a lot! We cannot say that they all looked the same. The biggest category seems to be 'Indians', but I can see that there are a lot of smaller categories which have similar names, (Irish Americans, White Americans and Italian Americans). I wonder who those Americans are. Maybe I should continue my analysis by trying to group the small similar categories. 
 
 I wonder how you can fit such diversity in so tiny a planet: 'Earth'.
 
@@ -67,7 +67,7 @@ I wonder how you can fit such diversity in so tiny a planet: 'Earth'.
 -------------------------
 
 ## What did they like?
-Let's move on from their external description. I now want to understand what they like, ie which movie genres they prefer. To do so, I need to have a way of quantifying how much they liked one movie over another. The column with the revenues for the movie box office seems perfectly suited for this. My unique worry is that this could be linked to other parameters which I'm not interested in. Indeed, I have just done a small linear regression on the movie box office revenue; these revenues seem to increase by a sum of $1 million for each year that passes. I definitely need to correct this effect if I want to have a reliable measure of movie success. Let's assume that the distribution of successful and disastrous movies is somewhat similar through time. Based on that, we can independently normalize the movie box office for each movie release year. This brings the average to zero and is not very sensible to outliers. I introduced the feature called: 'Movie box revenue scaled', and I will assess the success of a movie based the value of this measure. 
+Let's move on from their external description. I now want to understand what they like, ie which movie genres they prefer. To do so, I need to have a way of quantifying how much they liked one movie over another. The column with the revenues for the movie box office seems perfectly suited for this. My unique worry is that this could be linked to other parameters which I'm not interested in. Indeed, I have just done a small linear regression on the movie box office revenue; these revenues seem to increase by a sum of $1 million for each year that passes. I definitely need to correct this effect if I want to have a reliable measure of movie success. Let's assume that the distribution of successful and disastrous movies is somewhat similar through time. Based on that, we can independently normalize the movie box office for each movie release year. This brings the average to zero and is not very sensible to outliers. I introduced the feature called: 'Movie box revenue scaled', and I will assess the success of a movie based on the value of this measure. 
 
 Let's start by looking at the movie genre distribution in the 1000 most successful movies. 
 
@@ -106,7 +106,7 @@ We get the following graph.
 
 Since we know the most graded personnel is also the scariest one, I guess the previous graph gives us a good approximation of the hierarchy of ranks in the army: a "Captain" is, therefore, less graded than a "Private".
 
-*Note to the human reader: poor R2D4! He couldn't know that he is victim to a terrible cofactor here: the interest of a given military rank for movies scenarists. Indeed, it is more likely to see a Captain than a Private on the silver screen, not because there are fewer Privates than Captains, but because a Captain has so many more responsabilities than a Private, and therefore is more interesting for scenarists.*
+*Note to the human reader: poor R2D4! He couldn't know that he is victim to a terrible cofactor here: the interest of a given military rank for movie scenarists. Indeed, it is more likely to see a Captain than a Private on the silver screen, not because there are fewer Privates than Captains, but because a Captain has so many more responsibilities than a Private, and therefore is more interesting for scenarists.*
 
 
 ### Doctor positions
@@ -114,7 +114,7 @@ I was reading our data, when I noticed a singular fact: lots of characters are c
 
 <iframe src="img/html/jean_gender_proportions_doctors.html" width="900" height="600" frameborder="0" style="border: 0px"></iframe>
 
-Whoooah, such a miss! A t-test (p-value < 1e-59) discredites the null-hypothesis "There are as many female doctors as female actors in general". 
+Whoooah, such a miss! A t-test (p-value < 1e-59) discredits the null-hypothesis "There are as many female doctors as female actors in general". 
 
 
 *Note to the human reader: the bias in female representation in movies is a [well-known gender effect](http://eijh.modares.ac.ir/article-27-30885-en.html).*
